@@ -34,15 +34,15 @@ export const Footer = () => {
 	return (
 		<footer className="bg-secondary text-center py-2 px-5">
 			<div className="container text-muted">
-				<small>&copy; 2021 {" "}
+				<small>&copy; Last Updated in June 2024. {" "}
+					<Link href="https://github.com/hemhemoh">
+						<a> hemhemoh</a>
+					</Link>
+					. Brazenly Forked from {" "}
 					<Link href="https://github.com/hashirshoaeb">
-						<a>hashirshoaeb</a>
+						<a>Hashir</a>
 					</Link>
-					. Open sourced with love under {" "}
-					<Link href="https://github.com/hashirshoaeb/portfolio/blob/main/LICENSE">
-						<a>MIT</a>
-					</Link>
-					{" "} License
+					{/* {" "} License */}
 				</small>
 			</div>
 		</footer>

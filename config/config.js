@@ -4,7 +4,7 @@ import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg
 import { } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
-  name: "Hashir",
+  name: "Mardiyyah",
   links: [
     {
       title: "About",
@@ -24,24 +24,24 @@ export const navigation = {
     },
     {
       title: "Blog",
-      link: "https://medium.com/@hashirshoaeb",
+      link: "https://hemhemoh.medium.com/",
     }
   ],
 }
 export const intro = {
-  title: "Hey, I'm Hashir",
-  description: "A Computer Engineer creating mobile apps and static websites.",
+  title: "Hey, I'm Mardiyyah",
+  description: "An innovative ML engineer and independent researcher, passionate about community-driven projects, now seeking new opportunities to drive the future of machine learning.",
   image: profile.src,
   buttons: [
     {
-      title: "Contact Me",
-      link: "#contact",
+      title: "Google Scholar",
+      link: "https://scholar.google.co.uk/citations?user=a9fEPeoAAAAJ&hl=en",
       isPrimary: true,
     },
     {
-      title: "Resume",
-      link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
-      isPrimary: false,
+      title: "CV",
+      link: "https://drive.google.com/drive/folders/1o17Gv8VLA65f1faKNr-XR3gEwNq0s766?usp=sharing",
+      isPrimary: true,
     },
   ],
 }
@@ -49,9 +49,8 @@ export const intro = {
 export const about = {
   title: "Who I am",
   description: [
-    "I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
-    "The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
-    "When I’m not programming, I focus on my hobbies which are: diary writing, doodling, meeting people and growing my network.",
+    "Machine learning engineer with over 2 years of experience bridging engineering and research. I drive innovation by creating and implementing ML models that blend cutting-edge research with practical engineering to tackle complex challenges. My work has been recognized with publications at top conferences like ICLR.",
+    "I thrive on applying my ML knowledge to help companies solve improve their business operations, and I flourish in fast-paced environments."
   ],
 }
 
@@ -59,13 +58,18 @@ export const work = {
   title: "What I do",
   cards: [
     {
-      title: "Mobile App Development",
-      description: "I create pixel perfect iOS and Andriod apps using Flutter.",
+      title: "Machine Learning Engineering",
+      description: "I design, build, and deploy machine learning models and systems to solve business problems using data.",
       icons: null,
     },
     {
-      title: "Web Development",
-      description: "I create responsive static websites using Reactjs.",
+      title: "Machine Learning Research",
+      description: "I explore data and algorithms to uncover new ways to make machines understand and generate human language.",
+      icons: null,
+    },
+    {
+      title: "Community building",
+      description: "I actively contribute to the ML community by working on collaborative projects, and leading initiatives to meet budding researchers where they are at in their research journeys.",
       icons: null,
     }
   ],
@@ -75,59 +79,59 @@ export const projects = {
   title: "Projects",
   cards: [
     {
-      title: "StarBook",
-      description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
+      title: "Podcast Summarizer",
+      description: "",
       icons: [
         {
-          icon: faAppStore,
-          link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
-        },
-        {
           icon: faGithub,
-          link: "https://github.com/hashirshoaeb/star_book",
+          link: "",
         },
       ]
     },
     {
-      title: "QuranTalk",
-      description: "An emotional well being and mental health app. The app helps people to navigate their emotions in the light of the Quran.",
+      title: "Class-Gen",
+      description: "Class-Gen is an innovative project designed to classify images into four generational categories: Gen Z, Gen X, Baby Boomers, and Millennials. This project focuses on data scraping using selenium, image preprocessing, fine-tuning pretrained models, and image augmentation.",
       icons: [
         {
-          icon: faAppStore,
-          link: "https://apps.apple.com/us/app/qurantalk/id1563425149",
-        },
-        {
-          icon: faGooglePlay,
-          link: "https://play.google.com/store/apps/details?id=com.ayahemotion.quran_talk",
+          icon: faGithub,
+          link: "https://github.com/hemhemoh/Generation-Classification",
         },
       ]
     },
     {
-      title: "Portfolio",
-      description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
+      title: "Text-Summarization-App",
+      description: "This project aims to summarize long text of 512 tokens or less, to tokens <= 128 without reproducing the words in the main text and also retaining context. The project was deployed using huggingface spaces with streamlit and this repo also contains a flask app which can be set up locally.",
       icons: [
         {
           icon: faGithub,
-          link: "https://github.com/hashirshoaeb/portfolio",
+          link: "https://github.com/hemhemoh/Text-Summarization-App/",
         },
       ]
     },
   ],
 }
 
+export const news = {
+  title: "News",
+  description: [
+    "Machine learning engineer with over 2 years of experience bridging engineering and research. I drive innovation by creating and implementing ML models that blend cutting-edge research with practical engineering to tackle complex challenges. My work has been recognized with publications at top conferences like ICLR.",
+    "I thrive on applying my ML knowledge to help companies solve improve their business operations, and I flourish in fast-paced environments."
+  ],
+}
+
 export const contact = {
   title: "Get in touch",
-  description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at hashirshoaeb@gmail.com.",
+  description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at mardiyyahodu@gmail.com.",
   buttons: [
     {
       title: "Email Me",
-      link: "mailto:hashirshoaeb@gmail.com",
+      link: "mailto:mardiyyahodu@gmail.com",
       isPrimary: true,
     },
     {
       title: "Schedule Meeting",
-      link: "https://topmate.io/hashirshoaeb",
-      isPrimary: false,
+      link: "https://calendly.com/d/ck9q-jgz-x47/coffee-chat-with-mardiyyah",
+      isPrimary: true,
     },
   ]
 }
@@ -135,35 +139,31 @@ export const contact = {
 // SEARCH ENGINE 
 export const SEO = {
   // 50 - 60 char  
-  title: "Hashir Shoaib | Computer Engineer | Flutter | Reactjs developer",
-  description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
+  title: "Mardiyyah Oduwole | ML Engineer | ML Researcher | hemhemoh",
+  description: "A Machine Learning Engineer and Researcher who left chemistry to do teach machine to learn full time I graduated from National Open University of Nigeria in April 2024",
   image: profile.src,
 }
 
 export const links = {
   image: profile.src,
-  title: "@hashirshoaeb",
-  description: "Computer Engineer | Flutter | Reactjs Developer",
+  title: "@hemhemoh",
+  description: "ML Engineer | ML Researcher ",
   cards: [
     {
-      title: "My website",
-      link: "https://hashirshoaeb.com/",
-    },
-    {
-      title: "QuranTalk App",
-      link: "https://www.qurantalk.app/",
-    },
-    {
-      title: "StarBook App",
-      link: "https://starbook.dev/",
+      title: "Google Scholar",
+      link: "https://scholar.google.co.uk/citations?user=a9fEPeoAAAAJ&hl=en",
     },
     {
       title: "My GitHub",
-      link: "https://github.com/hashirshoaeb/",
+      link: "https://github.com/hemhemoh/",
     },
     {
       title: "My LinkedIn",
-      link: "https://www.linkedin.com/in/hashirshoaeb/",
+      link: "https://www.linkedin.com/in/mardiyyah-oduwole/",
+    },
+    {
+      title: "My Twitter",
+      link: "https://x.com/hemhemoh/",
     },
   ]
 }
