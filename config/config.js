@@ -50,7 +50,7 @@ export const about = {
   title: "Who I am",
   description: [
     "Machine learning engineer with over 2 years of experience bridging engineering and research. I drive innovation by creating and implementing ML models that blend cutting-edge research with practical engineering to tackle complex challenges. My work has been recognized with publications at top conferences like ICLR.",
-    "I thrive on applying my ML knowledge to help companies solve improve their business operations, and I flourish in fast-paced environments."
+    "I thrive on applying my ML knowledge to help companies improve their business operations, and I flourish in fast-paced environments."
   ],
 }
 
@@ -80,7 +80,7 @@ export const projects = {
   cards: [
     {
       title: "Podcast Summarizer",
-      description: "",
+      description: "Project in progress",
       icons: [
         {
           icon: faGithub,
@@ -111,14 +111,6 @@ export const projects = {
   ],
 }
 
-export const news = {
-  title: "News",
-  description: [
-    "Machine learning engineer with over 2 years of experience bridging engineering and research. I drive innovation by creating and implementing ML models that blend cutting-edge research with practical engineering to tackle complex challenges. My work has been recognized with publications at top conferences like ICLR.",
-    "I thrive on applying my ML knowledge to help companies solve improve their business operations, and I flourish in fast-paced environments."
-  ],
-}
-
 export const contact = {
   title: "Get in touch",
   description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at mardiyyahodu@gmail.com.",
@@ -140,7 +132,7 @@ export const contact = {
 export const SEO = {
   // 50 - 60 char  
   title: "Mardiyyah Oduwole | ML Engineer | ML Researcher | hemhemoh",
-  description: "A Machine Learning Engineer and Researcher who left chemistry to do teach machine to learn full time I graduated from National Open University of Nigeria in April 2024",
+  description: "A Machine Learning Engineer and an early career researcher who finds Natural language processing intriguing and loves to work in the field",
   image: profile.src,
 }
 
@@ -149,6 +141,10 @@ export const links = {
   title: "@hemhemoh",
   description: "ML Engineer | ML Researcher ",
   cards: [
+    {
+      title: "My Website",
+      link: "https://mardiyyahoduwole.com",
+    },
     {
       title: "Google Scholar",
       link: "https://scholar.google.co.uk/citations?user=a9fEPeoAAAAJ&hl=en",
